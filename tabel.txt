@@ -1,0 +1,8 @@
+CREATE TABLE data_kunjungan (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama_pasien VARCHAR(100) NOT NULL,
+    nama_dokter VARCHAR(100) NOT NULL,
+    jenis_kelamin ENUM('Laki-laki', 'Perempuan') NOT NULL,
+    usia INT NOT NULL,
+    tanggal_kunjungan DATE NOT NULL
+);
